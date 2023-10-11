@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+    color: white;
+    float: right;
+    padding: 10px 20px 0;
+}
+
+.search:hover {
+    background-color: red;
+}
+
+.tabbar {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+.list-1>li {
+    width: 80px;
+    height: 30px;
+    float: left;
+    padding: 10px 10px 0px 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+}
+
+.list-1>li:hover {
+    background-color: gray;
+    color: black;
+}
+
+.list-2 {
+    display: none;
+    width: 150px;
+    height: 130px;
+    margin-left: -30px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.list-2>li {
+    width: 95%;
+    height: 35px;
+    padding: 10px 0 0 10px;
+}
+
+.list-2>li:hover {
+    background-color: gray;
+}
+
+.more:hover .list-2 {
+    display: block;
+}
+
+.home {
+    width: 100%;
+    height: 765px
+}
+
+.textImage {
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    left: 610px;
+}
+
+.band {
+    width: 100%;
+    height: 660px;
+}
+
+.theBand {
+    width: 100%;
+    height: 325px;
+}
+
+.Name {
+    width: 100%;
+    height: 233px;
+}
+
+.name {
+    width: 150px;
+    height: 185px;
+    margin-top: 0px;
+    float: left;
+}
+
+.tour {
+    width: 100%;
+    height: 700px;
+    background-color: black;
+}
+
+.month {
+    width: 770px;
+    height: 120px;
+    background-color: white;
+    margin: 50px 0 0 375px;
+    list-style-type: none;
+}
+
+.month>li {
+    width: 100%;
+    height: 39px;
+    color: gray;
+    border: 1px solid rgb(177, 172, 172);
+    float: left;
+}
+
+.buyticks {
+    width: 200px;
+    height: 340px;
+    background-color: white;
+    margin-top: 33px;
+    float: left;
+}
+
+.img {
+    width: 100%;
+}
+
+.img:hover {
+    opacity: 0.7;
+}
+
+.btnBT {
+    width: 110px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btnBT:hover {
+    background-color: gray;
+    color: black;
+}
+
+.contact {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.address {
+    height: 100px;
+    width: 200px;
+    margin: 55px 0 0 375px;
+    float: left;
+}
+
+.input {
+    width: 385px;
+    height: 140px;
+    float: right;
+    margin: 55px 279px 0;
+
+}
+
+.send {
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    float: right;
+    margin-top: 10px;
+}
+
+.send:hover{
+    background-color: gray;
+    color: black;
+}
+
+.map{
+    width: 100%;
+}
+
+.end{
+    width: 100%;
+    height: 165px;
+    text-align: center;
+}
